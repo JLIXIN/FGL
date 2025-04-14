@@ -26,11 +26,12 @@ Illustration of the overall architecture.
 
 ## 📆 TODO LIST
 In the submission stage, we will disclose some core algorithms of the model. Our complete codebase will be released upon paper acceptance.
-- [x] [2025.4.14] Release the project page
-- [x] [2025.4.14] Release instructions for dataset preparation
-- [ ] Release the network code
-- [ ] Release the training and inference code
-- [ ] Release the pretrained model
+- [x] [2025.4.14] Release the project page.
+- [x] [2025.4.14] Release instructions for dataset preparation.
+- [ ] Release the core code for part of the model.
+- [ ] Release the complete model code.
+- [ ] Release the training and inference code.
+- [ ] Release the pretrained model.
 
 ## 🎮 Getting Started
 
