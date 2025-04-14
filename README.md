@@ -12,7 +12,7 @@ The emergence of deepfake technology has introduced a range of societal problems
     <img width="400" alt="image" src="figures/image.png?raw=true">
 </div>
 
-The challenges: (a) the effects of fuzzy edges (soft boundaries). (b) The misleading co-occurrence of salient and non-salient objects.
+Comparison with mainstream methods for deepfake cross-domain detection
 
 ## 📻 Overview
 
@@ -103,7 +103,7 @@ we provide the [pretrained model](https://pan.baidu.com/s/1aTexsJrazkXnzNPpc4D50
 </div>
 
 <div align="center">
-We compare our method against 13 state-of-the-art methods. The red box indicates the area of incorrect predictions.
+Saliency map visualization of Baseline and our FGL. The red box indicates some obvious or subtle forgery traces.
 </div>
 
 ## ✨ Quantitative comparison
@@ -113,7 +113,7 @@ We compare our method against 13 state-of-the-art methods. The red box indicates
 </div>
 
 <div align="center">
-Performance comparison with ten SOTA methods on ISIC2018, Kvasir, BUSI, COVID-19 and Monu-Seg datasets.
+Performance comparison with 11 methods on unknown forgery datasets.
 </div>
 
 ## 🎫 License
