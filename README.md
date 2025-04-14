@@ -9,7 +9,7 @@ The emergence of deepfake technology has introduced a range of societal problems
 ## 🚀 Introduction
 
 <div align="center">
-    <img width="400" alt="image" src="figures/challenge.png?raw=true">
+    <img width="400" alt="image" src="figures/comparison.pdf?raw=true">
 </div>
 
 The challenges: (a) the effects of fuzzy edges (soft boundaries). (b) The misleading co-occurrence of salient and non-salient objects.
@@ -17,7 +17,7 @@ The challenges: (a) the effects of fuzzy edges (soft boundaries). (b) The mislea
 ## 📻 Overview
 
 <div align="center">
-<img width="800" alt="image" src="figures/network.png?raw=true">
+<img width="800" alt="image" src="figures/network.pdf?raw=true">
 </div>
 
 Illustration of the overall architecture.
@@ -112,7 +112,7 @@ python Test/test_example.py
 ## 🖼️ Visualization
 
 <div align="center">
-<img width="800" alt="image" src="figures/com_pic.png?raw=true">
+<img width="800" alt="image" src="figures/visualization.pdf?raw=true">
 </div>
 
 <div align="center">
