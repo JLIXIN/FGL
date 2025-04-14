@@ -9,7 +9,7 @@ The emergence of deepfake technology has introduced a range of societal problems
 ## 🚀 Introduction
 
 <div align="center">
-    <img width="400" alt="image" src="figures/comparison.pdf?raw=true">
+    <img width="400" alt="image" src="figures/image.png?raw=true">
 </div>
 
 The challenges: (a) the effects of fuzzy edges (soft boundaries). (b) The misleading co-occurrence of salient and non-salient objects.
