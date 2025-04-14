@@ -43,12 +43,47 @@ pip install triton==2.0.0
 pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs PyWavelets
 ```
 
-### 2. Prepare Datasets
+### 2. Dataset Preparation
 
-- Download datasets: ISIC2018 from this [link](https://challenge.isic-archive.com/data/#2018), Kvasir from this[link](https://link.zhihu.com/?target=https%3A//datasets.simula.no/downloads/kvasir-seg.zip), BUSI from this [link](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), Moun-Seg from this [link](https://www.kaggle.com/datasets/tuanledinh/monuseg2018), and COVID-19 from this [link](https://drive.usercontent.google.com/download?id=1FHx0Cqkq9iYjEMN3Ldm9FnZ4Vr1u3p-j&export=download&authuser=0).
+- We include the dataset loaders for several commonly-used face forgery datasets, *i.e.,* [FaceForensics++](https://github.com/ondyari/FaceForensics), [Celeb-DF](https://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html), 
+[Deeperforensics-1.0](https://liming-jiang.com/projects/DrF1/DrF1.html), [WildDeepfake](https://github.com/deepfakeinthewild/deepfake-in-the-wild), and [DFDC](https://ai.facebook.com/datasets/dfdc). You can enter the dataset website to download the original data.
 
+- Please use MTCNN crop the face area, sample 20 frames from each video and put them in the correct path as following.
 
-- Folder organization: put datasets into ./data/datasets folder.
+```` 
+FaceForensics++
+├── train
+│   ├── train.txt
+│   ├── fake 
+│   │  │── 0.jpg
+│   │  │── 1.jpg
+│   │  └── ....
+│   └──  real 
+│     │── 0.jpg
+│     │── 1.jpg
+│     └── ....
+├─── val
+│   ├── val.txt
+│   ├── fake 
+│   │  │── 0.jpg
+│   │  │── 1.jpg
+│   │  └── ....
+│   └──  real 
+│      │── 0.jpg
+│      │── 1.jpg
+│      └── ....
+└─── test
+    ├── test.txt
+    ├── fake 
+    │  │── 0.jpg
+    │  │── 1.jpg
+    │  └──  ....
+    └── real 
+        │── 0.jpg
+        │── 1.jpg
+        └──  ....
+
+````
 
 ### 3. Train the Net
 
