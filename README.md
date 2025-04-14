@@ -9,7 +9,7 @@ The emergence of deepfake technology has introduced a range of societal problems
 ## 🚀 Introduction
 
 <div align="center">
-    <img width="400" alt="image" src="figures/image.png?raw=true">
+    <img width="500" alt="image" src="figures/image.png?raw=true">
 </div>
 
 Comparison with mainstream methods for deepfake cross-domain detection.
@@ -17,7 +17,7 @@ Comparison with mainstream methods for deepfake cross-domain detection.
 ## 📻 Overview
 
 <div align="center">
-<img width="800" alt="image" src="figures/network.png?raw=true">
+<img width="1000" alt="image" src="figures/network.png?raw=true">
 </div>
 
 Illustration of the overall architecture.
