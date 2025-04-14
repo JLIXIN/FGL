@@ -28,11 +28,11 @@ Illustration of the overall architecture.
 
 ## 📆 TODO LIST
 
-- [2025.4.14] Release the project page
-- [2025.4.14] Release the required prepare dataset
-- [x] Release the network code
-- [x] Release the training and inference code
-- [x] Release the pretrained model
+- [x] [2025.4.14] Release the project page
+- [x] [2025.4.14] Release instructions for dataset preparation
+- [ ] Release the network code
+- [ ] Release the training and inference code
+- [ ] Release the pretrained model
 
 ## 🎮 Getting Started
 
@@ -100,7 +100,7 @@ we will provide the [pretrained model](https://drive.google.com/drive/folders/1E
 ## 🖼️ Visualization
 
 <div align="center">
-<img width="800" alt="image" src="figures/visualization.png?raw=true">
+<img width="600" alt="image" src="figures/visualization.png?raw=true">
 </div>
 
 <div align="center">
