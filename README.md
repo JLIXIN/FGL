@@ -12,7 +12,9 @@ The emergence of deepfake technology has introduced a range of societal problems
     <img width="500" alt="image" src="figures/image.png?raw=true">
 </div>
 
+<div align="center">
 Comparison with mainstream methods for deepfake cross-domain detection.
+</div>
 
 ## 📻 Overview
 
@@ -20,12 +22,17 @@ Comparison with mainstream methods for deepfake cross-domain detection.
 <img width="1000" alt="image" src="figures/network.png?raw=true">
 </div>
 
+<div align="center">
 Illustration of the overall architecture.
+</div>
 
+## 📆 TODO LIST
 
-## 📆 TODO
-
-- [x] Release code
+- [2025.4.14] Release the project page
+- [2025.4.14] Release the required prepare dataset
+- [x] Release the network code
+- [x] Release the training and inference code
+- [x] Release the Pretrained Model
 
 ## 🎮 Getting Started
 
@@ -88,7 +95,7 @@ python test.py
 ```
 
 ### 3. Pretrained Model
-we provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) (verification code:pifn) based on FaceForensics++. 
+we will provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) based on FaceForensics++. 
 
 ## 🖼️ Visualization
 
@@ -103,7 +110,7 @@ Saliency map visualization of Baseline and our FGL. The red box indicates some o
 ## ✨ Quantitative comparison
 
 <div align="center">
-<img width="800" alt="image" src="figures/table.png?raw=true">
+<img width="1000" alt="image" src="figures/table.png?raw=true">
 </div>
 
 <div align="center">
