@@ -9,7 +9,7 @@ The emergence of deepfake technology has introduced a range of societal problems
 ## 🚀 Introduction
 
 <div align="center">
-    <img width="500" alt="image" src="figures/image.png?raw=true">
+    <img width="1000" alt="image" src="figures/introduction.png?raw=true">
 </div>
 
 
@@ -18,7 +18,9 @@ Comparison with mainstream methods for deepfake cross-domain detection. Our meth
 
 ## 📻 Overview
 
-![image](figures/network.png)
+<div align="center">
+    <img width="1000" alt="image" src="figures/network.png?raw=true">
+</div>
 
 <div align="center">
 Illustration of the overall architecture.
@@ -110,7 +112,9 @@ Saliency map visualization of Baseline and our FGL. The red box indicates some o
 
 ## ✨ Quantitative comparison
 
-![image](figures/table.png)
+<div align="center">
+    <img width="1000" alt="image" src="figures/table.png?raw=true">
+</div>
 
 <div align="center">
 Performance comparison with 11 methods on unknown forgery datasets.
