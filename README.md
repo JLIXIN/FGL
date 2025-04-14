@@ -17,7 +17,7 @@ The challenges: (a) the effects of fuzzy edges (soft boundaries). (b) The mislea
 ## 📻 Overview
 
 <div align="center">
-<img width="800" alt="image" src="figures/network.pdf?raw=true">
+<img width="800" alt="image" src="figures/network.png?raw=true">
 </div>
 
 Illustration of the overall architecture.
@@ -31,17 +31,7 @@ Illustration of the overall architecture.
 
 ### 1. Install Environment
 
-```
-conda create -n Net python=3.8
-conda activate Net
-pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
-pip install packaging
-pip install timm==0.4.12
-pip install pytest chardet yacs termcolor
-pip install submitit tensorboardX
-pip install triton==2.0.0
-pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs PyWavelets
-```
+`python -m pip install -r requirements.txt`
 
 ### 2. Dataset Preparation
 
@@ -85,7 +75,7 @@ FaceForensics++
 
 ````
 
-### 3. Train the Net
+### 3. Train
 
 ```
 python train.py --datasets ISIC2018
@@ -94,7 +84,7 @@ pre-training file is saved to ./log/dataset folder
 concrete information see train.py, please
 ```
 
-### 3. Test the RoMER-UNet
+### 3. Test
 
 ```
 python test.py --datasets ISIC2018
@@ -103,16 +93,13 @@ pre-training file is saved to ./log/dataset folder
 concrete information see test.py, please
 ```
 
-### 3. Code example
-
-```
-python Test/test_example.py
-```
+### 3. Pretrained Model
+we provide the [pretrained model](https://pan.baidu.com/s/1aTexsJrazkXnzNPpc4D50Q?pwd=pifn) (verification code:pifn) based on FaceForensics++. 
 
 ## 🖼️ Visualization
 
 <div align="center">
-<img width="800" alt="image" src="figures/visualization.pdf?raw=true">
+<img width="800" alt="image" src="figures/visualization.png?raw=true">
 </div>
 
 <div align="center">
@@ -122,7 +109,7 @@ We compare our method against 13 state-of-the-art methods. The red box indicates
 ## ✨ Quantitative comparison
 
 <div align="center">
-<img width="800" alt="image" src="figures/com_tab.png?raw=true">
+<img width="800" alt="image" src="figures/table.png?raw=true">
 </div>
 
 <div align="center">
