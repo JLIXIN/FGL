@@ -12,7 +12,7 @@ The emergence of deepfake technology has introduced a range of societal problems
     <img width="400" alt="image" src="figures/image.png?raw=true">
 </div>
 
-Comparison with mainstream methods for deepfake cross-domain detection
+Comparison with mainstream methods for deepfake cross-domain detection.
 
 ## 📻 Overview
 
@@ -78,23 +78,17 @@ FaceForensics++
 ### 3. Train
 
 ```
-python train.py --datasets ISIC2018
-training records is saved to ./log/dataset folder
-pre-training file is saved to ./log/dataset folder
-concrete information see train.py, please
+python train.py
 ```
 
 ### 3. Test
 
 ```
-python test.py --datasets ISIC2018
-training records is saved to ./log/dataset folder
-pre-training file is saved to ./log/dataset folder
-concrete information see test.py, please
+python test.py
 ```
 
 ### 3. Pretrained Model
-we provide the [pretrained model](https://pan.baidu.com/s/1aTexsJrazkXnzNPpc4D50Q?pwd=pifn) (verification code:pifn) based on FaceForensics++. 
+we provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) (verification code:pifn) based on FaceForensics++. 
 
 ## 🖼️ Visualization
 
@@ -116,6 +110,3 @@ Saliency map visualization of Baseline and our FGL. The red box indicates some o
 Performance comparison with 11 methods on unknown forgery datasets.
 </div>
 
-## 🎫 License
-
-The content of this project itself is licensed under [LICENSE](https://github.com/ILoveACM-MM/RoDeCon-Net?tab=Apache-2.0-1-ov-file).
