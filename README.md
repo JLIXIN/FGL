@@ -12,22 +12,20 @@ The emergence of deepfake technology has introduced a range of societal problems
     <img width="500" alt="image" src="figures/image.png?raw=true">
 </div>
 
-<div align="center">
-Comparison with mainstream methods for deepfake cross-domain detection.
-</div>
+
+Comparison with mainstream methods for deepfake cross-domain detection. Our method analyzes differences between forgery techniques and progressively updates model weights. Additionally, the frequency stream dynamically captures diverse forgery features, which are then integrated with the spatial stream to obtain a more discriminative embedding space.
+
 
 ## 📻 Overview
 
-<div align="center">
-<img width="1000" alt="image" src="figures/network.png?raw=true">
-</div>
+![image](figures/network.png)
 
 <div align="center">
 Illustration of the overall architecture.
 </div>
 
 ## 📆 TODO LIST
-
+In the submission stage, we will disclose some core algorithms of the model. Our complete codebase will be released upon paper acceptance.
 - [x] [2025.4.14] Release the project page
 - [x] [2025.4.14] Release instructions for dataset preparation
 - [ ] Release the network code
@@ -42,12 +40,19 @@ Illustration of the overall architecture.
 
 ### 2. Dataset Preparation
 
-- We include the dataset loaders for several commonly-used face forgery datasets, *i.e.,* [FaceForensics++](https://github.com/ondyari/FaceForensics), [Celeb-DF](https://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html), 
-[Deeperforensics-1.0](https://liming-jiang.com/projects/DrF1/DrF1.html), [WildDeepfake](https://github.com/deepfakeinthewild/deepfake-in-the-wild), and [DFDC](https://ai.facebook.com/datasets/dfdc). You can enter the dataset website to download the original data.
+- We used several public deepfake datasets, as shown in the following table. You can enter the dataset website to download the original data.
+
+| Dataset              | Real Videos | Fake Videos | Features                        | Original data link    |
+|----------------------|-------------|-------------|---------------------------------|-----------------------|
+| FaceForensics++       | 1,000       | 4,000       | Different forgery techniques |[Download](https://github.com/ondyari/FaceForensics)|
+| Celeb-DF-v2          | 590         | 5,639       | Celebrity dataset               |[Download](https://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html)|
+| DeeperForensics-1.0   | 50,000      | 10,000      | Complex scenes                  |[Download](https://liming-jiang.com/projects/DrF1/DrF1.html)|
+| WildDeepFake         | 3,805       | 3,509       | Internet-collected              |[Download](https://github.com/deepfakeinthewild/deepfake-in-the-wild)|
+| DFDC                  | 23,564      | 104,500     | Complex scenes, multiple forgery methods |[Download](https://ai.facebook.com/datasets/dfdc)|
 
 - Please use MTCNN crop the face area, sample 20 frames from each video and put them in the correct path as following.
 
-```` 
+```
 FaceForensics++
 ├── train
 │   ├── train.txt
@@ -79,23 +84,18 @@ FaceForensics++
         │── 0.jpg
         │── 1.jpg
         └──  ....
-
-````
+```
 
 ### 3. Train
 
-```
-python train.py
-```
+Upon Acceptance -> Codebase Liberation Activated 🔓
 
 ### 3. Test
 
-```
-python test.py
-```
+Upon Acceptance -> Codebase Liberation Activated 🔓
 
 ### 3. Pretrained Model
-we will provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) based on FaceForensics++. 
+Upon Acceptance, we will provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) based on FaceForensics++. 
 
 ## 🖼️ Visualization
 
@@ -109,9 +109,7 @@ Saliency map visualization of Baseline and our FGL. The red box indicates some o
 
 ## ✨ Quantitative comparison
 
-<div align="center">
-<img width="1000" alt="image" src="figures/table.png?raw=true">
-</div>
+![image](figures/table.png)
 
 <div align="center">
 Performance comparison with 11 methods on unknown forgery datasets.
