@@ -32,7 +32,7 @@ Illustration of the overall architecture.
 - [2025.4.14] Release the required prepare dataset
 - [x] Release the network code
 - [x] Release the training and inference code
-- [x] Release the Pretrained Model
+- [x] Release the pretrained model
 
 ## 🎮 Getting Started
 
