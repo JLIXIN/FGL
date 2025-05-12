@@ -93,11 +93,11 @@ FaceForensics++
 
 Upon Acceptance -> Codebase Liberation Activated 🔓
 
-### 3. Test
+### 4. Test
 
 Upon Acceptance -> Codebase Liberation Activated 🔓
 
-### 3. Pretrained Model
+### 5. Pretrained Model
 Upon Acceptance, we will provide the [pretrained model](https://drive.google.com/drive/folders/1EPY-uxIoA6a8ZHzbSlJ4Lg7Jm5rD6fsX?usp=drive_link) based on FaceForensics++. 
 
 ## 🖼️ Visualization
